@@ -1,5 +1,5 @@
-OBJECT-ORIENTED PROGRAMMING WITH JAVA, PART I
-# ooc-2013-OOProgrammingWithJava-PART1
+# OBJECT-ORIENTED PROGRAMMING WITH JAVA, PART I
+00c-2013-OOProgrammingWithJava-PART1
 
 Exercises for Part 1 of "Programming with Java" MOOC from University of Helsinki. Includes Post-Submit Notes in the code.
 
