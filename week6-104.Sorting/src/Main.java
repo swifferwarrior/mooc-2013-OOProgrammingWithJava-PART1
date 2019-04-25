@@ -50,6 +50,15 @@ public class Main {
                 j++;
             }
         }
+        /* EXAMPLE
+        int theIndexOfSmallest = startIndex;
+ 
+        for (int i = startIndex; i < table.length; i++) {
+            if ( table[i]<table[theIndexOfSmallest]) {
+                theIndexOfSmallest = i;
+            }
+        }
+        */
         newIndexFromTheSmallest = indexOfTheSmallest(newArray) + index;
         //You are wanting to know the index of array, not index of newArray
 
@@ -64,6 +73,12 @@ public class Main {
 
         array[first] = firstValue;
         array[second] = secondValue;
+        
+        /* EXAMPLE
+        int index1OldValue = table[index1];
+        table[index1] = table[index2];
+        table[index2] = index1OldValue;
+        */
     }
 
     public static void sort(int[] array) {
@@ -95,4 +110,7 @@ public class Main {
 3. swap() METHOD
         In order for it to work, both the indexes and values of both items need
         to be stored in variables within the method.
+
+4. indexOfTheSmallestStartingFrom() METHOD
+        Boy, I took the long way around....
  */
